@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B2C7E7B32E0AECC400D1239C /* SuperHero-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuperHero-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C7E7B32E0AECC400D1239C /* SuperHero-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SuperHero-IOS.app"; path = "/Users/tardes/Desktop/SuperHero-IOS/build/Debug-iphoneos/SuperHero-IOS.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B2C7E7C52E0AECC400D1239C /* Exceptions for "SuperHero-IOS" folder in "SuperHero-IOS" target */ = {
+		B2C7E8092E0AFED900D1239C /* Exceptions for "SuperHero-IOS" folder in "SuperHero-IOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,10 +21,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B2C7E7B52E0AECC400D1239C /* SuperHero-IOS */ = {
+		B2C7E7FF2E0AFED900D1239C /* SuperHero-IOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				B2C7E7C52E0AECC400D1239C /* Exceptions for "SuperHero-IOS" folder in "SuperHero-IOS" target */,
+				B2C7E8092E0AFED900D1239C /* Exceptions for "SuperHero-IOS" folder in "SuperHero-IOS" target */,
 			);
 			path = "SuperHero-IOS";
 			sourceTree = "<group>";
@@ -45,17 +45,8 @@
 		B2C7E7AA2E0AECC400D1239C = {
 			isa = PBXGroup;
 			children = (
-				B2C7E7B52E0AECC400D1239C /* SuperHero-IOS */,
-				B2C7E7B42E0AECC400D1239C /* Products */,
+				B2C7E7FF2E0AFED900D1239C /* SuperHero-IOS */,
 			);
-			sourceTree = "<group>";
-		};
-		B2C7E7B42E0AECC400D1239C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B2C7E7B32E0AECC400D1239C /* SuperHero-IOS.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,7 +65,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B2C7E7B52E0AECC400D1239C /* SuperHero-IOS */,
+				B2C7E7FF2E0AFED900D1239C /* SuperHero-IOS */,
 			);
 			name = "SuperHero-IOS";
 			packageProductDependencies = (
@@ -108,7 +99,7 @@
 			mainGroup = B2C7E7AA2E0AECC400D1239C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B2C7E7B42E0AECC400D1239C /* Products */;
+			productRefGroup = B2C7E7AA2E0AECC400D1239C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
