@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B2C7E7B32E0AECC400D1239C /* SuperHero-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SuperHero-IOS.app"; path = "/Users/tardes/Desktop/SuperHero-IOS/build/Debug-iphoneos/SuperHero-IOS.app"; sourceTree = "<absolute>"; };
+		B2ADAD582E0C41E500C17E2C /* SuperHero-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuperHero-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				B2C7E7FF2E0AFED900D1239C /* SuperHero-IOS */,
+				B2ADAD582E0C41E500C17E2C /* SuperHero-IOS.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +72,7 @@
 			packageProductDependencies = (
 			);
 			productName = "SuperHero-IOS";
-			productReference = B2C7E7B32E0AECC400D1239C /* SuperHero-IOS.app */;
+			productReference = B2ADAD582E0C41E500C17E2C /* SuperHero-IOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

@@ -24,7 +24,7 @@ class SuperheroProvider {
                 print("Succesfully decoded: \(str)")
             }*/
             
-            return try JSONDecoder().decode(SuperheroResponse.self, from: data).results
+            return try JSONDecoder().decode(SuperheroResponse.self, from: data).results 
             
         } catch {
             print(error.localizedDescription)
