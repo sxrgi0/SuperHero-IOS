@@ -45,19 +45,19 @@ class DetailViewController: UIViewController {
         alignmentLabel.text = superhero.biography.alignment.uppercased()
         alignmentLabel.textColor = UIColor(named: "alignment-\(superhero.biography.alignment)")
         
-        intelligenceProgressView.progress = Float(Int(superhero.powerstats.intelligence) ?? 0) / 100
-        strengthProgressView.progress = Float(Int(superhero.powerstats.strength) ?? 0) / 100
-        speedProgressView.progress = Float(Int(superhero.powerstats.speed) ?? 0) / 100
-        durabilityProgressView.progress = Float(Int(superhero.powerstats.durability) ?? 0) / 100
-        powerProgressView.progress = Float(Int(superhero.powerstats.power) ?? 0) / 100
-        combatProgressView.progress = Float(Int(superhero.powerstats.combat) ?? 0) / 100
-        
         intelligenceLabel.text = superhero.powerstats.intelligence
         strengthLabel.text = superhero.powerstats.strength
         speedLabel.text = superhero.powerstats.speed
         durabilityLabel.text = superhero.powerstats.durability
         powerLabel.text = superhero.powerstats.power
         combatLabel.text = superhero.powerstats.combat
+        
+        intelligenceProgressView.setProgress(Float(Int(superhero.powerstats.intelligence) ?? 0) / 100, animated: true)
+        strengthProgressView.setProgress(Float(Int(superhero.powerstats.strength) ?? 0) / 100, animated: true)
+        speedProgressView.setProgress(Float(Int(superhero.powerstats.speed) ?? 0) / 100, animated: true)
+        durabilityProgressView.setProgress(Float(Int(superhero.powerstats.durability) ?? 0) / 100, animated: true)
+        powerProgressView.setProgress(Float(Int(superhero.powerstats.power) ?? 0) / 100, animated: true)
+        combatProgressView.setProgress(Float(Int(superhero.powerstats.combat) ?? 0) / 100, animated: true)
     }
     
 

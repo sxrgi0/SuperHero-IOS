@@ -395,7 +395,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="im1-84-cmR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1770.2290076335878" y="206.33802816901411"/>
+            <point key="canvasLocation" x="1877" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="obh-GO-Cdc">
